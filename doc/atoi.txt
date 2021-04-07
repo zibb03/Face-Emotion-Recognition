@@ -1,0 +1,50 @@
+#include <stdio.h>
+#include <string.h>
+int main() {
+	char input[100];
+	int a, b;
+	int E, W, S, N;
+	scanf("%s", input);
+	a = strlen(input);
+	
+	for (b = 0; b < a; b += 2) {
+		if (input[b] == 'E') {
+			E += atoi(input[b + 1]);
+		}
+		else if (input[b] == 'W') {
+			W += atoi(input[b + 1]);	
+		}
+		else if (input[b] == 'S') {
+			S += atoi(input[b + 1]);	
+		}
+		else if (input[b] == 'N') {
+			N += atoi(input[b + 1]);	
+		}
+	}
+	if (E > W) {
+		if (E - W != 0)
+			printf("%d", E - W);
+		else 
+			printf("0");
+	}
+	else if (W < E) {
+		if (W - E != 0)
+			printf("%d", W - E );
+		else 
+			printf("0");
+	}
+	if (N < S) {
+		if (S - N != 0)
+			printf("%d", S - N);
+		else 
+			printf("0");
+	}
+	else if (S < N) {
+		if (N - S != 0)
+			printf("%d", N - S);
+		else 
+			printf("0");
+	}
+	
+	return 0;
+}
