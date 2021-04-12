@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="14a64bbe-83c6-4c18-823c-4a75d20412b1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pose_iter_160000.caffemodel" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,9 +189,9 @@
     </state>
     <state width="1921" height="184" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.79.1920.1040@0.0.1920.1040" timestamp="1614185541292" />
     <state width="1921" height="184" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614170815494" />
-    <state x="243" y="105" key="SettingsEditor" timestamp="1617799908037">
+    <state x="243" y="105" key="SettingsEditor" timestamp="1618230819732">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="243" y="105" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1617799908037" />
+    <state x="243" y="105" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1618230819732" />
   </component>
 </project>
