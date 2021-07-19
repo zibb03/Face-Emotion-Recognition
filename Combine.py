@@ -11,7 +11,7 @@ import random
 # dlib얼굴 인식 모델, 감정인식 모델 불러오기
 #face_detection = cv2.CascadeClassifier('./haarcascade_frontalface_default.xml') #사용 안함
 detector = dlib.get_frontal_face_detector() #얼굴 인식을 위한 dlib 기본 안면인식 모델
-emotion_classifier = load_model('C:/Users/user/PycharmProjects/OpenCV/emotion_model.hdf5', compile=False)
+emotion_classifier = load_model('emotion_model.hdf5', compile=True)
 EMOTIONS = ["Angry", "Disgusting", "Fearful", "Happy", "Sad", "Surpring", "Neutral"]
 
 # 이미지 불러오기

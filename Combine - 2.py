@@ -39,14 +39,14 @@ if len(dets) > 0:
         fY = d.top()
         fW = d.right()
         fH = d.bottom()
-        print(fX, fY, fW, fH)
+        #print(fX, fY, fW, fH)
         a = 1.5 * fX
         b = 1.5 * fY
         c = 1.5 * fW
         d = 1.5 * fH
 
         # grabcut
-        rect = (a, int((b - b / 2)), c, d)
+        rect = (int(a), int((b - b / 2)), int(c), int(d))
         img = frame.copy()
         img2 = img.copy()
         mask = np.zeros(img.shape[:2], dtype=np.uint8)
@@ -54,21 +54,24 @@ if len(dets) > 0:
 
         bgdModel = np.zeros((1, 65), np.float64)
         fgdModel = np.zeros((1, 65), np.float64)
+        # bgdModel = np.zeros((1, 65), np.int64)
+        # fgdModel = np.zeros((1, 65), np.int64)
 
+        print(type(img2), type(mask), type(rect), type(bgdModel), type(fgdModel))
         cv2.grabCut(img2, mask, rect, bgdModel, fgdModel, 1, cv2.GC_INIT_WITH_RECT)
         mask2 = np.where((mask == 1) + (mask == 3), 255, 0).astype('uint8')
         output = cv2.bitwise_and(img2, img2, mask=mask2)
 
         # --grabcut
 
-        roi = gray[fY:fH, fX:fW] #얼굴 인식된 좌표
+        roi = gray[fY:fH, fX:fW] # 얼굴 인식된 좌표
         roi = cv2.resize(roi, (64, 64))
         roi = roi.astype("float") / 255.0
         roi = img_to_array(roi)
         roi = np.expand_dims(roi, axis=0)
 
         # Emotion predict
-        #감정 인식하기
+        # 감정 인식하기
         preds = emotion_classifier.predict(roi)[0]
         emotion_probability = np.max(preds)
         label = EMOTIONS[preds.argmax()]
@@ -91,7 +94,7 @@ if len(dets) > 0:
         cv2.rectangle(canvas, (7, (i * 35) + 5), (w, (i * 35) + 35), (0, 0, 255), -1)
         cv2.putText(canvas, text, (10, (i * 35) + 23), cv2.FONT_HERSHEY_SIMPLEX, 0.45, (255, 255, 255), 2)
 
-print(maxnum)
+#print(maxnum)
 x = random.randint(0, 1)
 
 # 이미지 지정
@@ -141,7 +144,7 @@ elif label == EMOTIONS[6]:
     background = Neutral[x]
 
 output_height, output_width, _ = output.shape
-print(output_height, output_width)
+#print(output_height, output_width)
 logo = output
 
 background_height, background_width, _ = background.shape

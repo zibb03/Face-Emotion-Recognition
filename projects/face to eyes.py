@@ -102,7 +102,7 @@ if len(dets) > 0:
 import cv2
 from matplotlib import pyplot as plt
 
-child = 'C:/Users/user/PycharmProjects/OpenCV/People/people two.jpeg'
+child = 'C:/Users/user/PycharmProjects/OpenCV/People/people1.jpg'
 image = cv2.imread(child, cv2.IMREAD_UNCHANGED)
 grayImage = cv2.imread(child, cv2.IMREAD_GRAYSCALE)
 
@@ -123,6 +123,7 @@ for (x, y, w, h) in face:
 
     eyes_in_faces = eye_cascade.detectMultiScale(face_image_gray)
     for (xf, yf, wf, hf) in eyes_in_faces:
+        print(xf, yf, wf, hf)
         cv2.rectangle(face_image_color, (xf, yf), (xf + wf, yf + hf), (0, 255, 0), 2)
 
 plt.figure(figsize=(12, 12))

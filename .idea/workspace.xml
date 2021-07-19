@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="14a64bbe-83c6-4c18-823c-4a75d20412b1" name="Default Changelist" comment="" />
+    <list default="true" id="14a64bbe-83c6-4c18-823c-4a75d20412b1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Combine - 2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Combine - 2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Combine.py" beforeDir="false" afterPath="$PROJECT_DIR$/Combine.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/People/full body4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/combine - openpose.py" beforeDir="false" afterPath="$PROJECT_DIR$/combine - openpose.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/face to eyes.py" beforeDir="false" afterPath="$PROJECT_DIR$/projects/face to eyes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/warning.wav" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,7 +41,28 @@
       <recent name="C:\Users\user\PycharmProjects\OpenCV" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.eyes to face - 1">
+  <component name="RunManager" selected="Python.emotion_1">
+    <configuration name="Combine - 2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="OpenCV" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Combine - 2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Combine" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="OpenCV" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -55,7 +84,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Laplacian" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="combine - 0" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="OpenCV" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -67,7 +96,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Laplacian.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\user\PycharmProjects\OpenCV\combine - 0.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -76,7 +105,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Posung Corona Visualization" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="emotion_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="OpenCV" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -84,11 +113,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/projects" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/projects/Posung Corona Visualization.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/emotion_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -97,7 +126,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="combine - openpose" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="OpenCV" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -109,28 +138,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/combine - openpose.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="eyes to face - 1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="OpenCV" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/projects" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/projects/eyes to face - 1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -141,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.eyes to face - 1" />
-        <item itemvalue="Python.combine - openpose" />
+        <item itemvalue="Python.emotion_1" />
+        <item itemvalue="Python.combine - 0" />
         <item itemvalue="Python.Combine" />
-        <item itemvalue="Python.Posung Corona Visualization" />
-        <item itemvalue="Python.Laplacian" />
+        <item itemvalue="Python.Combine - 2" />
+        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -163,33 +171,39 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="434" y="309" key="FileChooserDialogImpl" timestamp="1614316695995">
+    <state x="614" y="304" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1625664242025">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="434" y="309" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1614316695995" />
-    <state width="1921" height="184" key="GridCell.Tab.0.bottom" timestamp="1614185541292">
+    <state x="614" y="304" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1625664242025" />
+    <state width="946" height="224" key="GridCell.Tab.0.bottom" timestamp="1626330792603">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="184" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.79.1920.1040@0.0.1920.1040" timestamp="1614185541292" />
-    <state width="1921" height="184" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614170815494" />
-    <state width="1921" height="184" key="GridCell.Tab.0.center" timestamp="1614185541292">
+    <state width="946" height="224" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.5.1920.1040@0.0.1920.1040" timestamp="1626279984449" />
+    <state width="946" height="224" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.5.1920.1040@1920.5.1920.1040" timestamp="1625680438775" />
+    <state width="946" height="224" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1626330792603" />
+    <state width="946" height="224" key="GridCell.Tab.0.center" timestamp="1626330792603">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="184" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.79.1920.1040@0.0.1920.1040" timestamp="1614185541292" />
-    <state width="1921" height="184" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614170815494" />
-    <state width="1921" height="184" key="GridCell.Tab.0.left" timestamp="1614185541292">
+    <state width="946" height="224" key="GridCell.Tab.0.center/0.0.1920.1040/1920.5.1920.1040@0.0.1920.1040" timestamp="1626279984449" />
+    <state width="946" height="224" key="GridCell.Tab.0.center/0.0.1920.1040/1920.5.1920.1040@1920.5.1920.1040" timestamp="1625680438775" />
+    <state width="946" height="224" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1626330792603" />
+    <state width="946" height="224" key="GridCell.Tab.0.left" timestamp="1626330792603">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="184" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.79.1920.1040@0.0.1920.1040" timestamp="1614185541292" />
-    <state width="1921" height="184" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614170815494" />
-    <state width="1921" height="184" key="GridCell.Tab.0.right" timestamp="1614185541292">
+    <state width="946" height="224" key="GridCell.Tab.0.left/0.0.1920.1040/1920.5.1920.1040@0.0.1920.1040" timestamp="1626279984449" />
+    <state width="946" height="224" key="GridCell.Tab.0.left/0.0.1920.1040/1920.5.1920.1040@1920.5.1920.1040" timestamp="1625680438775" />
+    <state width="946" height="224" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1626330792603" />
+    <state width="946" height="224" key="GridCell.Tab.0.right" timestamp="1626330792603">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="184" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.79.1920.1040@0.0.1920.1040" timestamp="1614185541292" />
-    <state width="1921" height="184" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614170815494" />
-    <state x="243" y="105" key="SettingsEditor" timestamp="1618230819732">
+    <state width="946" height="224" key="GridCell.Tab.0.right/0.0.1920.1040/1920.5.1920.1040@0.0.1920.1040" timestamp="1626279984449" />
+    <state width="946" height="224" key="GridCell.Tab.0.right/0.0.1920.1040/1920.5.1920.1040@1920.5.1920.1040" timestamp="1625680438775" />
+    <state width="946" height="224" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1626330792603" />
+    <state x="465" y="40" key="SettingsEditor" timestamp="1626330791648">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="243" y="105" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1618230819732" />
+    <state x="243" y="105" key="SettingsEditor/0.0.1920.1040/1920.5.1920.1040@0.0.1920.1040" timestamp="1625675039405" />
+    <state x="2163" y="110" key="SettingsEditor/0.0.1920.1040/1920.5.1920.1040@1920.5.1920.1040" timestamp="1626195511348" />
+    <state x="465" y="40" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1626330791648" />
   </component>
 </project>

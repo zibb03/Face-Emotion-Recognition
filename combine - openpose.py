@@ -30,6 +30,7 @@ if len(dets) > 0:
         fY = d.top()
         fW = d.right()
         fH = d.bottom()
+
         # print(fX, fY, fW, fH)
 
         roi = gray[fY:fH, fX:fW] #얼굴 인식된 좌표
@@ -37,9 +38,6 @@ if len(dets) > 0:
         roi = roi.astype("float") / 255.0
         roi = img_to_array(roi)
         roi = np.expand_dims(roi, axis=0)
-
-
-
 
         #grabcut
 
@@ -63,9 +61,6 @@ if len(dets) > 0:
                       ["RElbow", "RWrist"], ["Neck", "LShoulder"], ["LShoulder", "LElbow"],
                       ["LElbow", "LWrist"], ["Neck", "Chest"], ["Chest", "RHip"], ["RHip", "RKnee"],
                       ["RKnee", "RAnkle"], ["Chest", "LHip"], ["LHip", "LKnee"], ["LKnee", "LAnkle"]]
-
-
-
 
         # 위의 path에 있는 network 불러오기
         net = cv2.dnn.readNetFromCaffe(protoFile, weightsFile)
